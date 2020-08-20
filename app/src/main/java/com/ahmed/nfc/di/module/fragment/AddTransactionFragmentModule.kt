@@ -12,13 +12,8 @@ import dagger.Provides
 class AddTransactionFragmentModule {
 
     @Provides
-    internal fun provideTransaction(): Transaction {
-        return Transaction()
-    }
-
-    @Provides
-    internal fun provideAddTransactionViewModel(dataManager: DataManager, transaction: Transaction): AddTransactionViewModel {
-        return AddTransactionViewModel(dataManager,transaction)
+    internal fun provideAddTransactionViewModel(dataManager: DataManager): AddTransactionViewModel {
+        return AddTransactionViewModel(dataManager)
     }
 
 

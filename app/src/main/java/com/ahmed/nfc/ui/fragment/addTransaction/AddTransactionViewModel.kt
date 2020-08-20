@@ -12,12 +12,11 @@ import java.io.IOException
 import javax.inject.Inject
 
 class AddTransactionViewModel @Inject constructor(
-    val dataManager: DataManager,
-    val transaction: Transaction
+    val dataManager: DataManager
 ) : BaseViewModel(dataManager) {
 
 
-    suspend fun addTransactionToRemote(): Pair<Int, String> {
+    suspend fun addTransactionToRemote(transaction: Transaction): Pair<Int, String> {
 
         return withContext(Dispatchers.IO) {
             var msg: Pair<Int, String>

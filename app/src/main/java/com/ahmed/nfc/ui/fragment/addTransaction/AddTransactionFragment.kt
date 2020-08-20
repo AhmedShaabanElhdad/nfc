@@ -31,9 +31,7 @@ class AddTransactionFragment :
     // system should not check for the presence of NDEF-formatted data (e.g. Android Beam).
     var READER_FLAGS = NfcAdapter.FLAG_READER_NFC_A or NfcAdapter.FLAG_READER_SKIP_NDEF_CHECK
     var mLoyaltyCardReader: LoyaltyCardReader? = null
-
-    @Inject
-    internal lateinit var transaction: Transaction
+    var transaction:Transaction = Transaction()
 
     @Inject
     internal lateinit var mViewModelFactory: ViewModelProvider.Factory
@@ -130,7 +128,7 @@ class AddTransactionFragment :
         fragmentAddTransactionBinding.btnAdd.setOnClickListener {
             addViewModel.viewModelScope.launch {
                 showLoading()
-                val data = addViewModel.addTransactionToRemote()
+                val data = addViewModel.addTransactionToRemote(transaction)
                 if (data.first == 1) {
                     showMessage(data.second)
                 }
