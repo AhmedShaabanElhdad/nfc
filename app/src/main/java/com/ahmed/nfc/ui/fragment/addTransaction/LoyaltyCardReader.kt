@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jai.blueprint.ui.fragment.addTransaction
+package com.ahmed.nfc.ui.fragment.addTransaction
 
 import android.nfc.NfcAdapter.ReaderCallback
 import android.nfc.Tag

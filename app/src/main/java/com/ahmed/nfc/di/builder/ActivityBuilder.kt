@@ -1,9 +1,9 @@
-package com.jai.blueprint.di.builder
+package com.ahmed.nfc.di.builder
 
-import com.jai.blueprint.ui.activity.main.MainActivity
-import com.jai.blueprint.di.module.MainActivityModule
-import com.jai.blueprint.di.module.activity.SplashActivityModule
-import com.jai.blueprint.ui.activity.splash.SplashActivity
+import com.ahmed.nfc.ui.activity.main.MainActivity
+import com.ahmed.nfc.di.module.MainActivityModule
+import com.ahmed.nfc.di.module.activity.SplashActivityModule
+import com.ahmed.nfc.ui.activity.splash.SplashActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

@@ -1,4 +1,4 @@
-package com.jai.blueprint.ui.base
+package com.ahmed.nfc.ui.base
 
 import OnOneOffClickListener
 import android.content.Context
@@ -10,10 +10,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
-import com.jai.blueprint.R
-import com.jai.blueprint.ui.activity.main.MainActivity
-import com.jai.blueprint.ui.fragment.home.HomeViewModel
-import com.jai.blueprint.ui.fragment.addTransaction.AddTransactionViewModel
+import com.ahmed.nfc.R
+import com.ahmed.nfc.ui.activity.main.MainActivity
+import com.ahmed.nfc.ui.fragment.home.HomeViewModel
+import com.ahmed.nfc.ui.fragment.addTransaction.AddTransactionViewModel
 import dagger.android.support.AndroidSupportInjection
 
 

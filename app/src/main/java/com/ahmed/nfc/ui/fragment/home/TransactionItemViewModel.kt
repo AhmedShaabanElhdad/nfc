@@ -1,7 +1,7 @@
-package com.jai.blueprint.ui.fragment.home
+package com.ahmed.nfc.ui.fragment.home
 
 import androidx.lifecycle.MutableLiveData
-import com.jai.blueprint.data.model.Transaction
+import com.ahmed.nfc.data.model.Transaction
 
 class TransactionItemViewModel(var trans: Transaction, var mListener: TransactionItemViewModelListener) {
 

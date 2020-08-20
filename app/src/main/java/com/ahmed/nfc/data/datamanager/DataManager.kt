@@ -1,11 +1,10 @@
-package com.jai.blueprint.data.datamanager
+package com.ahmed.nfc.data.datamanager
 
-import android.util.Log
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.data.source.NetworkCall
-import com.jai.blueprint.data.source.dao.TransactionDao
-import com.jai.blueprint.ui.base.BaseRepository
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.data.source.NetworkCall
+import com.ahmed.nfc.data.source.dao.TransactionDao
+import com.ahmed.nfc.ui.base.BaseRepository
+import com.ahmed.nfc.utils.AppConstant
 import javax.inject.Inject
 import javax.inject.Singleton
 

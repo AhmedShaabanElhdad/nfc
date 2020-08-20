@@ -1,10 +1,10 @@
-package com.jai.blueprint.di.module
+package com.ahmed.nfc.di.module
 
 import android.content.Context
 import androidx.room.Room
-import com.jai.blueprint.data.source.LocalDb
-import com.jai.blueprint.data.source.dao.TransactionDao
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.data.source.LocalDb
+import com.ahmed.nfc.data.source.dao.TransactionDao
+import com.ahmed.nfc.utils.AppConstant
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

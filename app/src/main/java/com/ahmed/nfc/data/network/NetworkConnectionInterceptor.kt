@@ -1,4 +1,4 @@
-package com.jai.blueprint.data.network
+package com.ahmed.nfc.data.network
 
 import android.content.Context
 import android.net.ConnectivityManager

@@ -1,11 +1,11 @@
-package com.jai.blueprint.ui.fragment.home
+package com.ahmed.nfc.ui.fragment.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.databinding.ItemTransactionViewBinding
-import com.jai.blueprint.ui.base.BaseViewHolder
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.databinding.ItemTransactionViewBinding
+import com.ahmed.nfc.ui.base.BaseViewHolder
 
 class TransactionAdapter(var transactionList: List<Transaction>) : RecyclerView.Adapter<BaseViewHolder>() {
 

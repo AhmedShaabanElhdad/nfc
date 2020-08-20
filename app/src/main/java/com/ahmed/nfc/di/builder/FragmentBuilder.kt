@@ -1,9 +1,9 @@
-package com.jai.blueprint.di.builder
+package com.ahmed.nfc.di.builder
 
-import com.jai.blueprint.di.module.fragment.HomeFragmentModule
-import com.jai.blueprint.di.module.fragment.AddTransactionFragmentModule
-import com.jai.blueprint.ui.fragment.home.HomeFragment
-import com.jai.blueprint.ui.fragment.addTransaction.AddTransactionFragment
+import com.ahmed.nfc.di.module.fragment.HomeFragmentModule
+import com.ahmed.nfc.di.module.fragment.AddTransactionFragmentModule
+import com.ahmed.nfc.ui.fragment.home.HomeFragment
+import com.ahmed.nfc.ui.fragment.addTransaction.AddTransactionFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

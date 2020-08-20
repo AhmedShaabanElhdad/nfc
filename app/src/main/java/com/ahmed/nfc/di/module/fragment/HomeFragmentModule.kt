@@ -1,14 +1,14 @@
-package com.jai.blueprint.di.module.fragment
+package com.ahmed.nfc.di.module.fragment
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.ui.fragment.home.HomeFragment
-import com.jai.blueprint.ui.fragment.home.HomeViewModel
-import com.jai.blueprint.ui.fragment.home.TransactionAdapter
-import com.jai.blueprint.utils.GridSpacingItemDecoration
-import com.jai.blueprint.utils.ViewModelProviderFactory
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.ui.fragment.home.HomeFragment
+import com.ahmed.nfc.ui.fragment.home.HomeViewModel
+import com.ahmed.nfc.ui.fragment.home.TransactionAdapter
+import com.ahmed.nfc.utils.GridSpacingItemDecoration
+import com.ahmed.nfc.utils.ViewModelProviderFactory
 import dagger.Module
 import dagger.Provides
 

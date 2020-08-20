@@ -1,4 +1,4 @@
-package com.jai.blueprint.utils
+package com.ahmed.nfc.utils
 
 class AppConstant {
     companion object {

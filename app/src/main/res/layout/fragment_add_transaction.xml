@@ -6,11 +6,11 @@
         <import type="android.view.View" />
         <variable
             name="viewModel"
-            type="com.jai.blueprint.ui.fragment.addTransaction.AddTransactionViewModel" />
+            type="com.ahmed.nfc.ui.fragment.addTransaction.AddTransactionViewModel" />
 
         <variable
             name="transaction"
-            type="com.jai.blueprint.data.model.Transaction" />
+            type="com.ahmed.nfc.data.model.Transaction" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

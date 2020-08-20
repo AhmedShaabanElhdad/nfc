@@ -1,4 +1,4 @@
-package com.jai.blueprint.data.network
+package com.ahmed.nfc.data.network
 
 sealed class NetworkResult<out T : Any> {
     data class Success<out T : Any>(val data: T) : NetworkResult<T>()

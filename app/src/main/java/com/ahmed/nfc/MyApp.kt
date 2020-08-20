@@ -1,8 +1,8 @@
-package com.jai.blueprint
+package com.ahmed.nfc
 
 import android.app.Activity
 import android.app.Application
-import com.jai.blueprint.di.component.DaggerAppComponent
+import com.ahmed.nfc.di.component.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector

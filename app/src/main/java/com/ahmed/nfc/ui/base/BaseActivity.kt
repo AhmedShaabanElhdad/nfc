@@ -1,9 +1,8 @@
-package com.jai.blueprint.ui.base
+package com.ahmed.nfc.ui.base
 
 import OnOneOffClickListener
 import android.annotation.TargetApi
 import android.app.Dialog
-import android.app.ProgressDialog
 import android.content.Context
 import android.content.pm.PackageManager
 import android.graphics.Color
@@ -18,8 +17,8 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import com.google.android.material.snackbar.Snackbar
-import com.jai.blueprint.R
-import com.jai.blueprint.utils.AppUtils
+import com.ahmed.nfc.R
+import com.ahmed.nfc.utils.AppUtils
 import dagger.android.AndroidInjection
 
 abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel> : AppCompatActivity(),

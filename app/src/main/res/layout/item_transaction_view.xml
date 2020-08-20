@@ -9,7 +9,7 @@
 
         <variable
             name="viewModel"
-            type="com.jai.blueprint.ui.fragment.home.TransactionItemViewModel" />
+            type="com.ahmed.nfc.ui.fragment.home.TransactionItemViewModel" />
 
     </data>
 

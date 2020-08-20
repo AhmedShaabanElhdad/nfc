@@ -1,4 +1,4 @@
-package com.jai.blueprint.utils
+package com.ahmed.nfc.utils
 
 /**
  * Created by JAI on 14,November,2019

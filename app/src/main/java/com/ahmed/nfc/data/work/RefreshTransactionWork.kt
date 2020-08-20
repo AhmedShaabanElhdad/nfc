@@ -1,11 +1,11 @@
-package com.jai.blueprint.data.work
+package com.ahmed.nfc.data.work
 
 import android.content.Context
 import android.util.Log
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.utils.AppConstant
 import kotlinx.coroutines.runBlocking
 
 class RefreshTransactionWork(context: Context, params: WorkerParameters) : Worker(context, params) {

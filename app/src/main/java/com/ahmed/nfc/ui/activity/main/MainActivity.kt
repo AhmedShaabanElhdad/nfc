@@ -1,12 +1,12 @@
-package com.jai.blueprint.ui.activity.main
+package com.ahmed.nfc.ui.activity.main
 
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.jai.blueprint.BR
-import com.jai.blueprint.R
-import com.jai.blueprint.databinding.ActivityMainBinding
-import com.jai.blueprint.ui.base.BaseActivity
+import com.ahmed.nfc.BR
+import com.ahmed.nfc.R
+import com.ahmed.nfc.databinding.ActivityMainBinding
+import com.ahmed.nfc.ui.base.BaseActivity
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector

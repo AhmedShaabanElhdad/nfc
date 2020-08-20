@@ -1,9 +1,9 @@
-package com.jai.blueprint.data.source
+package com.ahmed.nfc.data.source
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.data.source.dao.TransactionDao
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.data.source.dao.TransactionDao
 import javax.inject.Singleton
 
 

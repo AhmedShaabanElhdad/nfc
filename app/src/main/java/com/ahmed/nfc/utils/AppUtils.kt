@@ -1,4 +1,4 @@
-package com.jai.blueprint.utils
+package com.ahmed.nfc.utils
 
 import android.app.Dialog
 import android.content.Context
@@ -9,7 +9,7 @@ import android.net.Network
 import android.net.NetworkCapabilities
 import android.os.Build
 import android.view.LayoutInflater
-import com.jai.blueprint.R
+import com.ahmed.nfc.R
 
 class AppUtils {
 

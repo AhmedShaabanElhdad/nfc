@@ -1,4 +1,4 @@
-package com.jai.blueprint.ui.base
+package com.ahmed.nfc.ui.base
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

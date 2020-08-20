@@ -1,4 +1,4 @@
-package com.jai.blueprint.utils
+package com.ahmed.nfc.utils
 
 
 import android.view.View
@@ -6,7 +6,6 @@ import android.widget.ImageView
 import androidx.core.widget.ContentLoadingProgressBar
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
-import com.jai.blueprint.data.model.Transaction
 
 //todo remove image url
 

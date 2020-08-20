@@ -1,4 +1,4 @@
-package com.jai.dadday.util
+package com.ahmed.dadday.util
 
 import android.content.Context
 import android.view.GestureDetector

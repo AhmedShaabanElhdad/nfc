@@ -1,4 +1,4 @@
-package com.jai.blueprint.ui.fragment.addTransaction
+package com.ahmed.nfc.ui.fragment.addTransaction
 
 import android.app.Activity
 import android.nfc.NfcAdapter
@@ -7,18 +7,16 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.lifecycle.viewModelScope
-import com.jai.blueprint.BR
-import com.jai.blueprint.R
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.databinding.FragmentAddTransactionBinding
-import com.jai.blueprint.ui.base.BaseFragment
-import com.jai.blueprint.ui.fragment.home.HomeViewModel
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.BR
+import com.ahmed.nfc.R
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.databinding.FragmentAddTransactionBinding
+import com.ahmed.nfc.ui.base.BaseFragment
+import com.ahmed.nfc.utils.AppConstant
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

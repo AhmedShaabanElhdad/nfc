@@ -1,7 +1,7 @@
-package com.jai.blueprint.data.source
+package com.ahmed.nfc.data.source
 
-import com.jai.blueprint.data.model.ResponseTransaction
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.data.model.ResponseTransaction
+import com.ahmed.nfc.utils.AppConstant
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

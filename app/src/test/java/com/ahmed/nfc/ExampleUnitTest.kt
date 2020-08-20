@@ -1,4 +1,4 @@
-package com.jai.blueprint
+package com.ahmed.nfc
 
 import org.junit.Test
 

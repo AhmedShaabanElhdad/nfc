@@ -1,4 +1,4 @@
-package com.jai.blueprint
+package com.ahmed.nfc
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

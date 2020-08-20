@@ -1,7 +1,7 @@
-package com.jai.blueprint.ui.base
+package com.ahmed.nfc.ui.base
 
-import com.jai.blueprint.data.network.NetworkResult
-import com.jai.blueprint.data.network.NoConnectivityException
+import com.ahmed.nfc.data.network.NetworkResult
+import com.ahmed.nfc.data.network.NoConnectivityException
 import org.json.JSONObject
 import retrofit2.Response
 import java.io.IOException

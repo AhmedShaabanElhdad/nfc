@@ -1,11 +1,11 @@
-package com.jai.blueprint.data.source.dao
+package com.ahmed.nfc.data.source.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.jai.blueprint.data.model.Transaction
+import com.ahmed.nfc.data.model.Transaction
 
 @Dao
 interface TransactionDao {

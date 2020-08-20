@@ -1,9 +1,9 @@
-package com.jai.blueprint.di.module
+package com.ahmed.nfc.di.module
 
 import android.content.Context
-import com.jai.blueprint.data.network.NetworkConnectionInterceptor
-import com.jai.blueprint.data.source.NetworkCall
-import com.jai.blueprint.utils.AppConstant.Companion.BASE_URL
+import com.ahmed.nfc.data.network.NetworkConnectionInterceptor
+import com.ahmed.nfc.data.source.NetworkCall
+import com.ahmed.nfc.utils.AppConstant.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

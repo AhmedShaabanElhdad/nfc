@@ -1,10 +1,10 @@
-package com.jai.blueprint.di.module.fragment
+package com.ahmed.nfc.di.module.fragment
 
 import androidx.lifecycle.ViewModelProvider
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.ui.fragment.addTransaction.AddTransactionViewModel
-import com.jai.blueprint.utils.ViewModelProviderFactory
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.ui.fragment.addTransaction.AddTransactionViewModel
+import com.ahmed.nfc.utils.ViewModelProviderFactory
 import dagger.Module
 import dagger.Provides
 

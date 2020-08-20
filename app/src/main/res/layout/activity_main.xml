@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="com.jai.blueprint.ui.activity.main.MainViewModel" />
+            type="com.ahmed.nfc.ui.activity.main.MainViewModel" />
 
     </data>
 

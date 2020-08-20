@@ -1,8 +1,8 @@
-package com.jai.blueprint.di.module
+package com.ahmed.nfc.di.module
 
 import android.app.Application
 import android.content.Context
-import com.jai.blueprint.data.source.preference.AppPreferences
+import com.ahmed.nfc.data.source.preference.AppPreferences
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

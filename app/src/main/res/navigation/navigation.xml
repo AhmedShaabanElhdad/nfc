@@ -11,7 +11,7 @@
 
     <fragment
         android:id="@+id/navigation_transaction"
-        android:name="com.jai.blueprint.ui.fragment.home.HomeFragment"
+        android:name="com.ahmed.nfc.ui.fragment.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
 
@@ -23,7 +23,7 @@
 
         <fragment
             android:id="@+id/navigation_add_transaction"
-            android:name="com.jai.blueprint.ui.fragment.addTransaction.AddTransactionFragment"
+            android:name="com.ahmed.nfc.ui.fragment.addTransaction.AddTransactionFragment"
             android:label="ProfileFragment"
             tools:layout="@layout/fragment_add_transaction" />
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jai.blueprint"
+    package="com.ahmed.nfc"
     tools:ignore="GoogleAppIndexingWarning">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,7 +14,7 @@
 
     <application
         android:usesCleartextTraffic="true"
-        android:name="com.jai.blueprint.MyApp"
+        android:name="com.ahmed.nfc.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name="com.jai.blueprint.ui.activity.splash.SplashActivity">
+        <activity android:name="com.ahmed.nfc.ui.activity.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +31,7 @@
 
         </activity>
 
-        <activity android:name="com.jai.blueprint.ui.activity.main.MainActivity">
+        <activity android:name="com.ahmed.nfc.ui.activity.main.MainActivity">
 
             <!-- NFC-related intent filter. Allows application to handle messages from any
      NFC-A devices discovered. Other Android devices are required to support NFC-A.

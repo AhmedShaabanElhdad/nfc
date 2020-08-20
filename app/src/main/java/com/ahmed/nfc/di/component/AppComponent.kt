@@ -1,13 +1,13 @@
-package com.jai.blueprint.di.component
+package com.ahmed.nfc.di.component
 
 import android.app.Application
-import com.jai.blueprint.MyApp
-import com.jai.blueprint.di.builder.ActivityBuilder
-import com.jai.blueprint.di.builder.FragmentBuilder
-import com.jai.blueprint.di.module.AppModule
-import com.jai.blueprint.di.module.DbModule
-import com.jai.blueprint.di.module.NetworkModule
-import com.jai.blueprint.di.module.RepoModule
+import com.ahmed.nfc.MyApp
+import com.ahmed.nfc.di.builder.ActivityBuilder
+import com.ahmed.nfc.di.builder.FragmentBuilder
+import com.ahmed.nfc.di.module.AppModule
+import com.ahmed.nfc.di.module.DbModule
+import com.ahmed.nfc.di.module.NetworkModule
+import com.ahmed.nfc.di.module.RepoModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule

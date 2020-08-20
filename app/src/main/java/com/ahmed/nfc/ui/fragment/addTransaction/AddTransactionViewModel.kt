@@ -1,11 +1,11 @@
-package com.jai.blueprint.ui.fragment.addTransaction
+package com.ahmed.nfc.ui.fragment.addTransaction
 
 import android.util.Log
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.data.model.ResponseTransaction
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.data.network.NetworkResult
-import com.jai.blueprint.ui.base.BaseViewModel
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.data.model.ResponseTransaction
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.data.network.NetworkResult
+import com.ahmed.nfc.ui.base.BaseViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.IOException

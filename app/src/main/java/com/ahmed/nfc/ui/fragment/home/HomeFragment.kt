@@ -1,4 +1,4 @@
-package com.jai.blueprint.ui.fragment.home
+package com.ahmed.nfc.ui.fragment.home
 
 import android.os.Bundle
 import android.view.View
@@ -6,12 +6,12 @@ import androidx.core.os.bundleOf
 import androidx.lifecycle.*
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
-import com.jai.blueprint.BR
-import com.jai.blueprint.data.model.Transaction
-import com.jai.blueprint.databinding.FragmentHomeBinding
-import com.jai.blueprint.ui.base.BaseFragment
-import com.jai.blueprint.utils.GridSpacingItemDecoration
-import com.jai.dadday.util.RecyclerItemClickListener
+import com.ahmed.nfc.BR
+import com.ahmed.nfc.data.model.Transaction
+import com.ahmed.nfc.databinding.FragmentHomeBinding
+import com.ahmed.nfc.ui.base.BaseFragment
+import com.ahmed.nfc.utils.GridSpacingItemDecoration
+import com.ahmed.dadday.util.RecyclerItemClickListener
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -41,7 +41,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel>() {
 
     override fun getBindingVariable(): Int = BR.viewModel
 
-    override fun getLayoutId(): Int = com.jai.blueprint.R.layout.fragment_home
+    override fun getLayoutId(): Int = com.ahmed.nfc.R.layout.fragment_home
 
     override fun getViewModel(): HomeViewModel {
         return ViewModelProviders.of(this, mViewModelFactory).get(HomeViewModel::class.java)

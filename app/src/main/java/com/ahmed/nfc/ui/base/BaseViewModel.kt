@@ -1,4 +1,4 @@
-package com.jai.blueprint.ui.base
+package com.ahmed.nfc.ui.base
 
 import androidx.lifecycle.ViewModel
 

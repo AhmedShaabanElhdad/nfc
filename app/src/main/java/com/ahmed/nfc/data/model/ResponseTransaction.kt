@@ -1,9 +1,8 @@
-package com.jai.blueprint.data.model
+package com.ahmed.nfc.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import javax.inject.Inject
 
 data class ResponseTransaction(
     @SerializedName("transactions")

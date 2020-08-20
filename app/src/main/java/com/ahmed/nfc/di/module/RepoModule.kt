@@ -1,10 +1,10 @@
-package com.jai.blueprint.di.module
+package com.ahmed.nfc.di.module
 
 import androidx.work.WorkerFactory
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.data.source.NetworkCall
-import com.jai.blueprint.data.source.dao.TransactionDao
-import com.jai.blueprint.data.work.DaggerWorkerFactory
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.data.source.NetworkCall
+import com.ahmed.nfc.data.source.dao.TransactionDao
+import com.ahmed.nfc.data.work.DaggerWorkerFactory
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

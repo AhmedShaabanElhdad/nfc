@@ -1,8 +1,8 @@
-package com.jai.blueprint.data.source.preference
+package com.ahmed.nfc.data.source.preference
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.jai.blueprint.utils.AppConstant
+import com.ahmed.nfc.utils.AppConstant
 import javax.inject.Inject
 import javax.inject.Singleton
 

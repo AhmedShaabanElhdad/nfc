@@ -1,9 +1,9 @@
-package com.jai.blueprint.di.module.activity
+package com.ahmed.nfc.di.module.activity
 
 import androidx.lifecycle.ViewModelProvider
-import com.jai.blueprint.data.datamanager.DataManager
-import com.jai.blueprint.ui.activity.splash.SplashViewModel
-import com.jai.blueprint.utils.ViewModelProviderFactory
+import com.ahmed.nfc.data.datamanager.DataManager
+import com.ahmed.nfc.ui.activity.splash.SplashViewModel
+import com.ahmed.nfc.utils.ViewModelProviderFactory
 import dagger.Module
 import dagger.Provides
 

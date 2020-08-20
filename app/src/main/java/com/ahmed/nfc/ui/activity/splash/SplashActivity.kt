@@ -1,16 +1,16 @@
-package com.jai.blueprint.ui.activity.splash
+package com.ahmed.nfc.ui.activity.splash
 
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
-import com.jai.blueprint.BR
-import com.jai.blueprint.R
-import com.jai.blueprint.databinding.ActivityMainBinding
-import com.jai.blueprint.databinding.ActivitySplahBinding
-import com.jai.blueprint.ui.activity.main.MainActivity
-import com.jai.blueprint.ui.base.BaseActivity
+import com.ahmed.nfc.BR
+import com.ahmed.nfc.R
+import com.ahmed.nfc.databinding.ActivityMainBinding
+import com.ahmed.nfc.databinding.ActivitySplahBinding
+import com.ahmed.nfc.ui.activity.main.MainActivity
+import com.ahmed.nfc.ui.base.BaseActivity
 import javax.inject.Inject
 
 
