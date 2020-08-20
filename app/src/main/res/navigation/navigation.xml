@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/navigation_add_transaction">
+
+    <!--    <action android:id="@+id/global_home_action" app:destination="@id/navigation_home" app:launchSingleTop="true"/>-->
+    <!--    <action android:id="@+id/global_profile_action" app:destination="@id/navigation_profile" app:launchSingleTop="true"/>-->
+
+
+    <fragment
+        android:id="@+id/navigation_transaction"
+        android:name="com.jai.blueprint.ui.fragment.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_navigation_home_to_detailTeamFragment"-->
+        <!--            app:destination="@id/detailtransactionfragment" />-->
+    </fragment>
+
+
+        <fragment
+            android:id="@+id/navigation_add_transaction"
+            android:name="com.jai.blueprint.ui.fragment.addTransaction.AddTransactionFragment"
+            android:label="ProfileFragment"
+            tools:layout="@layout/fragment_add_transaction" />
+
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/detailtransactionfragment"-->
+    <!--        android:name="com.jai.blueprint.ui.fragment.detailtransaction.DetailTransactionFragment"-->
+    <!--        android:label="DetailTransactionFragment"-->
+    <!--        tools:layout="@layout/fragment_team_details"-->
+    <!--        />-->
+
+
+</navigation>
